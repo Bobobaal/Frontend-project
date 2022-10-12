@@ -1,4 +1,10 @@
 # Watchlist frontend
+A website where people can keep a list of the movies they've watched on their own personal account
+
+Because it was a small scale project and due to public API's having a limit on calls, you have to add the movies yourself as a trusted account.
+
+Overall not very happy with the design, it's overly bright and could've used some more darker color.
+Looking back it's of very poor design, should've done better.
 
 ## How to start
 First install all the required packages with `yarn install`
@@ -24,4 +30,5 @@ People with this role are allowed to add movies and update them. (Not delete the
 
 ### Backend for this project
 You have to run this backend in order to use the front-end
+
 [Link Backend](https://github.com/Bobobaal/Backend-project)
