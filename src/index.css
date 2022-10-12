@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.movieHeader {
+  border-bottom: 1px solid orange;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.containedWhiteBorder {
+  border: 1px solid white !important;
+  box-shadow: none !important;
+}
+
+.buttonTrusted {
+  background-color: #c9292d !important;
+  color: white !important;
+  box-shadow: none !important;
+  height: 40px !important;
+  width: 97% !important;
+}
+
+.searchButtonNotTrusted {
+  background-color: #c9292d !important;
+  color: white !important;
+  box-shadow: none !important;
+  height: 40px !important;
+  width: 97% !important;
+}
+
+.MuiSelect-select.Mui-disabled {
+  -webkit-text-fill-color: #c9292d !important;
+}

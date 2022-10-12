@@ -1,0 +1,10 @@
+let MOVIES = [
+  {
+    id: '01d7b6aa-076a-473e-b798-9a991e2038c3',
+    title: 'Alita Battle Angel',
+    releaseYear: 2019,
+    synopsis: `A deactivated cyborg's revived, but can't remember anything of her past and goes on a quest to find out who she is.`,
+  },
+];
+
+export {MOVIES}
