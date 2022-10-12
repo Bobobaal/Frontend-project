@@ -10,8 +10,7 @@ Run the tests with `yarn run cypress open`
 ## Existing user accounts that can be used
 To login it's a combination of email + password.
 
-**THE PASSWORD FOR ALL USERS (running local): 12345678  
-ON HEROKU IT IS: Hogent123!**
+**THE PASSWORD FOR ALL USERS (running local): 12345678**
 
 There are 4 accounts, 2 of which are basically duplicates:
   - Test1, test1@hotmail.com (admin user)
@@ -23,5 +22,6 @@ Basic information about the trusted user:
 Role implemented to (if this would actually be deployed for real) prevent users to make random stuff, so the database doesn't get filled with "garbage data".  
 People with this role are allowed to add movies and update them. (Not delete them, found it more appropriate that only an admin can do that.)
 
-### Github pages
-[Link Github Pages](https://dietervmb.github.io/frontendweb-pieter-2122-DieterVMB/)
+### Backend for this project
+You have to run this backend in order to use the front-end
+[Link Backend](https://github.com/Bobobaal/Backend-project)
