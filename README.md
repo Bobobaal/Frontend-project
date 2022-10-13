@@ -32,3 +32,25 @@ People with this role are allowed to add movies and update them. (Not delete the
 You have to run this backend in order to use the front-end
 
 [Link Backend](https://github.com/Bobobaal/Backend-project)
+
+##Screenshots
+
+**Sign in**
+![image](https://user-images.githubusercontent.com/15947020/195470351-12391ec9-613f-4828-bb46-8242e4c53126.png)
+
+**Register**
+![image](https://user-images.githubusercontent.com/15947020/195470376-aadaeeca-1cfe-430b-8023-50a1b6a94dd7.png)
+
+**Logged in user's watchlist**
+![image](https://user-images.githubusercontent.com/15947020/195470686-f17e152b-a26b-4b7e-9592-f2269c3f58c6.png)
+*Under watched is a button that changes text when you set it to watched or not watched  
+Edit button enables the select where the movie title is in so you can change the entry. Both edit and delete will change to save & cancel buttons.  
+Small oversight on my part when canceling and you have changed the select it will only disable the select but not return it to its original value, it will when you reload the page.  
+I'll be honest I should've come up with a better solution than this when considering how to edit a watchlist item*
+
+**Movies list**
+![image](https://user-images.githubusercontent.com/15947020/195471329-9287b675-6bde-47ee-8bf9-5295bbab6513.png)
+*If the account has a trusted role the delete button will not be visible, if it's just a regular user account all buttons except the nav buttons and the search button will not be visible*
+
+**Movies list with star search parameter**
+![image](https://user-images.githubusercontent.com/15947020/195471587-14bc8a66-7d3f-461f-96e2-8a2467be0a31.png)
